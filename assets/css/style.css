@@ -888,8 +888,9 @@ label {
 	z-index: -1;
 }
 .banner-shape-wrap img.img-one {
-	top: 28%;
-	left: -3%;
+
+	top: -45%;
+	left: -30%;
 	animation: leftToRight 5s infinite linear;
 }
 .banner-shape-wrap img.img-two {
@@ -905,6 +906,7 @@ label {
 	animation: alltuchtopdown 3s infinite linear;
 }
 .banner-content img {
+	
 	margin-bottom: 25px;
 }
 .banner-content .title {
