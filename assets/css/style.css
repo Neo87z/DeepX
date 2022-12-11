@@ -43,7 +43,7 @@ body {
 	font-size: 16px;
 	color: #A4B4C3;
 	font-style: normal;
-	background-color: #030B15;
+	background-color: #010913;
 	line-height: 1.75;
 }
 body.white-background {
@@ -1324,6 +1324,7 @@ label {
 	padding: 0 15px;
 	margin-bottom: 25px;
 }
+
  @media (max-width: 767px) {
         .hidden-mobile {
           display: none;
@@ -1361,6 +1362,7 @@ label {
 }
 .section-title .title2 {
 	width: 160%;
+	
 	font-size: 42px;
 	margin-bottom: 0;
 	letter-spacing: -0.01em;
@@ -2282,7 +2284,7 @@ label {
 }
 .faq-wrap .accordion-body {
 	padding: 0 40px 45px 55px;
-	background: #fff;
+	
 	position: relative;
 }
 .faq-wrap .accordion-body::before {
@@ -2292,7 +2294,7 @@ label {
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #00C4F4;
+	
 }
 .faq-wrap .accordion-body p {
 	margin-bottom: 0;
@@ -2408,7 +2410,7 @@ label {
 .blog-widget {
 	border: 1px solid #F2F5FA;
 	box-shadow: 0px 12px 10px rgba(238, 239, 240, 0.25);
-	background: #fff;
+	
 	padding: 40px 30px;
 	margin-bottom: 40px;
 }
@@ -2422,7 +2424,7 @@ label {
 	position: relative;
 }
 .blog-widget .sidebar-search input {
-	background: #F3F6FC;
+	
 	border: 1px solid #F2F4F6;
 	color: #030A39;
 	width: 100%;
@@ -2552,7 +2554,7 @@ label {
 .blog-widget .tag-list ul li a:hover {
 	opacity: 1;
 	color: #fff;
-	background: #564DCA;
+	
 	border-color: #564DCA;
 }
 .blog-widget:last-child {
