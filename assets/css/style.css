@@ -1324,6 +1324,19 @@ label {
 	padding: 0 15px;
 	margin-bottom: 25px;
 }
+ @media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+        }
+      }
+
+ @media (min-width: 767px) {
+        .hidden-large {
+          display: none;
+        }
+      }
+
+
 .section-title .sub-title::after,
 .section-title .sub-title::before {
 	content: "";
@@ -1341,9 +1354,19 @@ label {
 	right: 0;
 }
 .section-title .title {
+	
 	font-size: 42px;
 	margin-bottom: 0;
 	letter-spacing: -0.01em;
+}
+.section-title .title2 {
+	width: 160%;
+	font-size: 42px;
+	margin-bottom: 0;
+	letter-spacing: -0.01em;
+}
+.section-title .title2 span {
+	color: #00C4F4;
 }
 .section-title .title span {
 	color: #00C4F4;
